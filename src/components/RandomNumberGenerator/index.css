@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.random-number-generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e4ebf3;
+  border-radius: 16px;
+  width: 40%;
+  padding: 24px;
+  max-width: 1110px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.header {
+  text-align: center;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-style: bold;
+  font-weight: 700;
+}
+.description {
+  text-align: center;
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 700;
+}
+.generate-btn {
+  color: #eaebed;
+  background-color: #007bff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.increment-btn{
+    color:  #1e293b;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.random-number {
+  text-align: center;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-style: bold;
+  font-weight: 700;
+}
