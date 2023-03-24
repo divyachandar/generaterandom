@@ -4,12 +4,10 @@ import './index.css'
 class RandomNumberGenerator extends Component {
   state = {counter: 0}
 
-  getRandomNumber = () => Math.ceil(Math.random() * 100)
-
   onGenerateRandomNum = () => {
-    const randomNumber = this.getRandomNumber()
+    const randomNumber = Math.ceil(Math.random() * 100)
     console.log(randomNumber)
-    this.setState(prevState => ({count: prevState.count + randomNumber}))
+    this.setState({counter: randomNumber})
   }
 
   onIncrement = () => {
